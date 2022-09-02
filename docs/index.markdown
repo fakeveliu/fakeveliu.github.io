@@ -39,19 +39,23 @@ A simple software rasterizer that draws basic primitives and bitmap images in a 
 
 An application that generates a 3D title intro for your video with background customization and built-in effects presets.
 
+[[Read More]](projects/3D-Video-Title-Generator.md)
+
 ![3DVTG Menu](media/3DVTG-001.png)
 
 # **Computer Systems**
-These are some of the more challenging projects I did in CMU's Introduction to Computer Systems course, all of which provided me understanding of essential concepts in computer systems.
+These are some of the more challenging projects I did in CMU's Introduction to Computer Systems[^1] course, all of which provided me understanding of essential concepts in computer systems.
 
 ---
 
 ## Malloc Lab
-//TODO
+A dynamic memory allocator that efficiently simulates the `malloc`, `free`, `realloc`, and `calloc` library functions.
 ## Shell Lab
 //TODO
 ## Proxy Lab
-//TODO
+A concurrent Web proxy that sits between local browsers and the rest of the World Wide Web.
+
+[^1]: As per the academic integrity policy at CMU, the source code is not to be shared here.
 
 # **Game Development**
 ## CapeGuy
@@ -61,4 +65,8 @@ These are some of the more challenging projects I did in CMU's Introduction to C
 
 # **3D Animation**
 ## Dreamwriter
-//TODO
+[Showcase Video](https://www.youtube.com/watch?v=1fceOg6SGZs)
+
+//TODO: description
+
+![Dreamwriter Render](media/dreamwriter-001.jpeg)
