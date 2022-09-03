@@ -6,13 +6,20 @@ in_header: false
 ---
 > Carnegie Mellon University’s educational graphics software package. Includes components for interactive 3D mesh editing, path tracing, dynamic animation, and physics-based simulation.
 
-![15-462 F20 Renders](../media/Scotty3D-001.png)
+![15-462 F20 Renders](../media/scotty3d/scotty3d-001.png)
 
 Scotty3D is an essential education tool used in the course Computer Graphics at CMU, where the students spend nearly the entire semester implementing features for its different components. By playing both the developer's and the user's role in this software application, they learn about many of the important topics in computer graphics.
 
 In Spring 2022, I wrote functionalities including 3D mesh editing, path tracing, animation, and physics-based simulation as a student in the class. Details about what I did can all be found in the [documentation](https://cmu-graphics.github.io/Scotty3D/) which also serves as the assignment writeup website for the course.
 
-![Scotty3D Functionalities](../media/Scotty3D-002.png)
+* 3D Mesh Editing Interface:
+![mesh editing](../media/scotty3d/scotty3d-002.png)
+* Path Tracing Interface:
+![path tracing](../media/scotty3d/scotty3d-003.png)
+* Dynamic Animation Interface:
+![path tracing](../media/scotty3d/scotty3d-004.png)
+* Physics-based Simulation Interface:
+![path tracing](../media/scotty3d/scotty3d-005.png)
 
 Over the summer, I joined the Computer Graphics staff as a Research Assistant to continue improving Scotty3D's codebase. My main responsibility was to help develop a new file format called S3D for all the 3D assets (meshes, textures, lighting, etc.) in the scene. Originally, Scotty3D used `assimp` to load and store scene data, which had the following issues:
 * Took up a big chunk of the build time since it is a lot of code

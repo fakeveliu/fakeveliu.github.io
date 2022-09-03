@@ -23,7 +23,7 @@ Carnegie Mellon University’s educational graphics software package. Includes c
 
 [[Read More]](projects/Scotty3D.md)
 
-![15-462 F20 Renders](media/Scotty3D-001.png)
+![15-462 F20 Renders](media/scotty3d/scotty3d-001.png)
 
 ## DrawSVG
 [GitHub Repo](https://github.com/CMU-Graphics/DrawSVG) | [Documentation](https://github.com/CMU-Graphics/DrawSVG/blob/master/README.md)
@@ -32,7 +32,7 @@ A simple software rasterizer that draws basic primitives and bitmap images in a 
 
 [[Read More]](projects/DrawSVG.md)
 
-![DrawSVG Pipeline](media/DrawSVG-001.png)
+![DrawSVG Pipeline](media/drawsvg/DrawSVG-001.png)
 
 ## 3D Video Title Generator
 [GitHub Repo](https://github.com/fakeveliu/3D-Video-Title-Generator) | [Video Demo](https://www.youtube.com/watch?v=_HKwtrwD1u4)
@@ -41,7 +41,7 @@ An application that generates a 3D title intro for your video with background cu
 
 [[Read More]](projects/3D-Video-Title-Generator.md)
 
-![3DVTG Menu](media/3DVTG-001.png)
+![3DVTG Menu](media/3d-video-title-generator/3DVTG-001.png)
 
 # **Computer Systems**
 These are some of the more challenging projects I did in CMU's Introduction to Computer Systems[^1] course, all of which provided me understanding of essential concepts in computer systems.
@@ -69,4 +69,4 @@ A concurrent Web proxy that sits between local browsers and the rest of the Worl
 
 //TODO: description
 
-![Dreamwriter Render](media/dreamwriter-001.jpeg)
+![Dreamwriter Render](media/dreamwriter/dreamwriter-001.jpeg)
