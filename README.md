@@ -1,2 +1,2 @@
 # fakeveliu.github.io
-(Under Construction) Personal website for project showcase.
+Visit my personal project showcase website [here](https://fakeveliu.github.io/).
