@@ -4,11 +4,12 @@ title: 3D Video Title Generator
 permalink: /3D-Video-Title-Generator/
 in_header: false
 ---
+[GitHub Repo](https://github.com/fakeveliu/3D-Video-Title-Generator) | [Video Demo](https://www.youtube.com/watch?v=_HKwtrwD1u4)
 > An application that generates a 3D title intro for your video with background customization and built-in effects presets.
 
-This is my final term project for the course Fundamentals of Programming and Computer Science at CMU. You can watch the video demo [here](https://www.youtube.com/watch?v=_HKwtrwD1u4) for a quick view of its functionalities.
+![3DVTG Menu](../media/3d-video-title-generator/3DVTG-001.jpg)
 
-Fundamentals of Programming and Computer Science was the first programming course I took at CMU. It was also the course that led me into coding. I was one of those students who didn't have much coding experience before coming into college, but this course transformed me from that into someone who's able to propose a full appliacation development plan and write thousands of lines of code independently.
+This is my final term project for the course Fundamentals of Programming and Computer Science at CMU. It's the first programming course I took at CMU and also the course that led me into coding. I was one of those students who didn't have much coding experience before coming into college, but this course transformed me from that into someone who's able to propose a full appliacation development plan and write thousands of lines of code independently.
 
 When I was deciding what to do for the term project, I started by thinking about what I enjoy doing in life. The first thing that came to my mind was video editing. Today, millions of people watch online videos every day, but not too many of them notice how important a good intro is to a video. I had a lot of experience making video intros with softwares like Final Cut Pro, and I decided that it might be cool to write an app to create my own themed video title intro.
 

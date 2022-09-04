@@ -4,6 +4,7 @@ title: Scotty3D
 permalink: /Scotty3D/
 in_header: false
 ---
+[GitHub Repo](https://github.com/CMU-Graphics/Scotty3D) | [Documentation](https://cmu-graphics.github.io/Scotty3D/)
 > Carnegie Mellon University’s educational graphics software package. Includes components for interactive 3D mesh editing, path tracing, dynamic animation, and physics-based simulation.
 
 ![15-462 F20 Renders](../media/scotty3d/scotty3d-001.png)

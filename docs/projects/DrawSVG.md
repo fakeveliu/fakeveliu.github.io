@@ -4,7 +4,10 @@ title: DrawSVG
 permalink: /DrawSVG/
 in_header: false
 ---
+[GitHub Repo](https://github.com/CMU-Graphics/DrawSVG) | [Documentation](https://github.com/CMU-Graphics/DrawSVG/blob/master/README.md)
 > A simple software rasterizer that draws basic primitives and bitmap images in a viewer that supports features of the Scalable Vector Graphics (SVG) format.
+
+![DrawSVG Pipeline](../media/drawsvg/DrawSVG-001.png)
 
 DrawSVG is a project I did in the course Computer Graphics at CMU, utilizing important concepts in modern 2D rendering pipelines such as rasterization, sampling, perspective projection, depth and transparency, and so on.
 

@@ -14,8 +14,8 @@ title: "Home"
 - Game Development
 - 3D Animation
 
-# **Computer Graphics**
 ---
+# **Computer Graphics**
 ## Scotty3D
 [GitHub Repo](https://github.com/CMU-Graphics/Scotty3D) | [Documentation](https://cmu-graphics.github.io/Scotty3D/)
 
@@ -43,13 +43,13 @@ An application that generates a 3D title intro for your video with background cu
 
 ![3DVTG Menu](media/3d-video-title-generator/3DVTG-001.jpg)
 
-# **Computer Systems**
-These are some of the more challenging projects I did in CMU's Introduction to Computer Systems[^1] course, all of which built up my understanding of essential concepts in computer systems.
-
 ---
 
+# **Computer Systems**
+These are some of the more challenging projects I did in CMU's Introduction to Computer Systems[^1] course, all of which built up my understanding of essential concepts used in computer systems.
+
 ## Malloc Lab
-A dynamic memory allocator that efficiently reproduces the `malloc`, `free`, `realloc`, and `calloc` library functions. My task in this lab was to write these function from scratch to satisfy some performance benchmarks, which required a good grasp of the lower-level memory layout. 
+A dynamic memory allocator that efficiently reproduces the `malloc`, `free`, `realloc`, and `calloc` library functions. My task in this lab was to write these function from scratch to satisfy some performance benchmarks, which required a relatively good grasp of the low-level memory layout. 
 
 The starter code used a single implicit list to manage the data blocks, which is (insert weakness). I did () to boost performance to ().
 ## Shell Lab
@@ -59,16 +59,22 @@ A concurrent Web proxy that sits between local browsers and the rest of the Worl
 
 [^1]: As per the academic integrity policy at CMU, the source code is not to be disclosed here.
 
+---
+
 # **Game Development**
 ## CapeGuy
 [GitHub Repo](https://github.com/fakeveliu/CapeGuy) | [Video Demo](https://www.youtube.com/watch?v=tRJ_BaRIuRc)
 
 //TODO
 
+---
+
 # **3D Animation**
 ## Dreamwriter
 [Showcase Video](https://www.youtube.com/watch?v=1fceOg6SGZs)
 
-//TODO: description
+A short 3D animation film in which I was responsible for everything in the pipeline from character design, storyboarding, 3D modeling, rigging, to animation. [[Read More]](projects/Dreamwriter.md)
 
 ![Dreamwriter Render](media/dreamwriter/dreamwriter-001.jpeg)
+
+---
