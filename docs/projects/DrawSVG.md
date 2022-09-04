@@ -9,7 +9,7 @@ in_header: false
 
 ![DrawSVG Pipeline](../media/drawsvg/DrawSVG-001.png)
 
-DrawSVG is a project I did in the course Computer Graphics at CMU, utilizing important concepts in modern 2D rendering pipelines such as rasterization, sampling, perspective projection, depth and transparency, and so on. Below are some highlights in this projects.
+DrawSVG is a project I did in the course Computer Graphics at CMU, utilizing important concepts in modern 2D rendering pipelines such as rasterization, sampling, perspective projection, depth and transparency, and so on. Below are some highlights in this project.
 
 ## Rasterization ##
 To draw basic primitives on the canvas, I implemented the following functions:
@@ -32,6 +32,7 @@ Specifically, supersampling is done by managing a larger sample buffer that stor
 An SVG file consists of a hierarchy of shape elements. Each element is associated with a modelling transform that defines the relationship between the element's local coordinate space and its parent's coordinate space. I applied matrices to correctly interpret the hierarchy and to support image pan and zoom while preserving the relative positions of the elements drawn.
 
 ## Image Anti-aliasing ##
+In texturing, the actual color of a pixel on screen is determined by taking samples at its corresponding coordinates on the UV map. However, when we zoom far out and can only see a few pixels at some parts of the image, it wouldn't make sense to continue sampling from a high-resolution texture. Therefore we introduced mipmapping, which keeps different resolution versions of the original map, to accomodate the loss of resolution for distant objects. The behavior illustrated in the following screenshots is made by implementing trilinear filtering (first choose the mipmap level according to how far we zoom out, then do bilinear filtering on that specific mipmap to obtain the final pixel color).
 
 ![drawsvg-zoom1](../media/drawsvg/DrawSVG-006.png)
 
@@ -39,6 +40,8 @@ An SVG file consists of a hierarchy of shape elements. Each element is associate
 
 ![drawsvg-zoom3](../media/drawsvg/DrawSVG-008.png)
 
-## Alpha Compositing ##
-![drawsvg-alpha](../media/drawsvg/DrawSVG-010.jpg)
+## "Ocean Sunset" ##
+
+At the end, I was able to create an SVG file in Illustrator and correctly draw it in my SVG viewer. This image depicts an ocean sunset using just the most basic primitive shapes. The reflections are particularly interesting since they illustrate how alpha blending is done.
+
 ![DrawSVG Final](../media/drawsvg/DrawSVG-009.png)
