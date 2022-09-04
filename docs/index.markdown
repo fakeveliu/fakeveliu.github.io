@@ -74,7 +74,7 @@ Thread safety is also important in caching. The cache I implemented for the prox
 ## CapeGuy
 Unity, C# | [GitHub Repo](https://github.com/fakeveliu/CapeGuy) | [Gameplay Video](https://www.youtube.com/watch?v=tRJ_BaRIuRc)
 
-A 2D platformer adventure game. Along the journey, the player controls CapeGuy to fight enemies in the forest and collect coins to unlock new levels.
+A 2D platform adventure game. Along the journey, the player controls CapeGuy to fight enemies in the forest and collect coins to unlock new levels.
 
 [[Read More]](projects/CapeGuy.md)
 
