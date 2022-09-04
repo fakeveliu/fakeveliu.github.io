@@ -17,7 +17,7 @@ title: "Home"
 ---
 # **Computer Graphics**
 ## Scotty3D
-[GitHub Repo](https://github.com/CMU-Graphics/Scotty3D) | [Documentation](https://cmu-graphics.github.io/Scotty3D/)
+C++ | [GitHub Repo](https://github.com/CMU-Graphics/Scotty3D) | [Documentation](https://cmu-graphics.github.io/Scotty3D/)
 
 Carnegie Mellon University’s educational graphics software package. Includes components for interactive 3D mesh editing, path tracing, dynamic animation, and physics-based simulation.
 
@@ -26,7 +26,7 @@ Carnegie Mellon University’s educational graphics software package. Includes c
 ![15-462 F20 Renders](media/scotty3d/scotty3d-001.png)
 
 ## DrawSVG
-[GitHub Repo](https://github.com/CMU-Graphics/DrawSVG) | [Documentation](https://github.com/CMU-Graphics/DrawSVG/blob/master/README.md)
+C++ | [GitHub Repo](https://github.com/CMU-Graphics/DrawSVG) | [Documentation](https://github.com/CMU-Graphics/DrawSVG/blob/master/README.md)
 
 A simple software rasterizer that draws basic primitives and bitmap images in a viewer that supports features of the Scalable Vector Graphics (SVG) format.
 
@@ -35,7 +35,7 @@ A simple software rasterizer that draws basic primitives and bitmap images in a 
 ![DrawSVG Pipeline](media/drawsvg/DrawSVG-001.png)
 
 ## 3D Video Title Generator
-[GitHub Repo](https://github.com/fakeveliu/3D-Video-Title-Generator) | [Video Demo](https://www.youtube.com/watch?v=_HKwtrwD1u4)
+Python | [GitHub Repo](https://github.com/fakeveliu/3D-Video-Title-Generator) | [Video Demo](https://www.youtube.com/watch?v=_HKwtrwD1u4)
 
 An application that generates a 3D title intro for your video with background customization and built-in effects presets.
 
@@ -46,7 +46,7 @@ An application that generates a 3D title intro for your video with background cu
 ---
 
 # **Computer Systems**
-These are some of the more challenging projects I did in CMU's Introduction to Computer Systems[^1] course, all of which built up my understanding of essential concepts used in computer systems.
+These are some of the more challenging projects I did in CMU's Introduction to Computer Systems[^1] course, all written in C. They introduced me to many essential concepts used in computer systems.
 
 ## Malloc Lab
 A dynamic memory allocator that efficiently reproduces the `malloc`, `free`, `realloc`, and `calloc` library functions. My task in this lab was to write these function from scratch to satisfy some performance benchmarks, which required a relatively good grasp of the low-level memory layout. 
@@ -68,7 +68,7 @@ A concurrent Web proxy that sits between local browsers and the rest of the Worl
 
 # **Game Development**
 ## CapeGuy
-[GitHub Repo](https://github.com/fakeveliu/CapeGuy) | [Gameplay Video](https://www.youtube.com/watch?v=tRJ_BaRIuRc)
+Unity, C# | [GitHub Repo](https://github.com/fakeveliu/CapeGuy) | [Gameplay Video](https://www.youtube.com/watch?v=tRJ_BaRIuRc)
 
 A 2D platformer adventure game. Along the journey, the player controls CapeGuy to fight enemies in the forest and collect coins to unlock new levels.
 
@@ -78,7 +78,7 @@ A 2D platformer adventure game. Along the journey, the player controls CapeGuy t
 
 # **3D Animation**
 ## Dreamwriter
-[Showcase Video](https://www.youtube.com/watch?v=1fceOg6SGZs)
+Maya | [Showcase Video](https://www.youtube.com/watch?v=1fceOg6SGZs)
 
 A short 3D animation film in which I was responsible for everything in the pipeline from character design, storyboarding, 3D modeling, rigging, to animation. [[Read More]](projects/Dreamwriter.md)
 
