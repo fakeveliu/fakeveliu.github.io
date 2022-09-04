@@ -6,3 +6,4 @@ in_header: true
 ---
 
 ## My name is Eve Liu.
+![me](media/about/me.JPG)

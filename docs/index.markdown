@@ -51,9 +51,11 @@ These are some of the more challenging projects I did in CMU's Introduction to C
 ## Malloc Lab
 A dynamic memory allocator that efficiently reproduces the `malloc`, `free`, `realloc`, and `calloc` library functions. My task in this lab was to write these function from scratch to satisfy some performance benchmarks, which required a relatively good grasp of the low-level memory layout. 
 
-The starter code used a single implicit list to manage the data blocks, which is (insert weakness). I did () to boost performance to ().
+The starter code used a single implicit list to manage the data blocks, which has a very low throughput (average number of operations completed per second). To combat this, I implemented a segregated explicit lists data strucutre where free blocks are kept in buckets according to their sizes. This greatly shortens the searching time because (1) the program only needs to traverse the one bucket corresponding to the size `malloc` asks for, rather than go through all the free blocks, and (2) every bucket is a doubly-linked list containing only the free blocks.
+
+However, this is not enough to produce a high utilization (peak used memory to heap size ratio) due to fragmentation. This is addressed by decreasing the minimum block size and removing overheads in each block. The final result increases utilization by 16% and has 10x better throughput compared to the initial implemenation.
 ## Shell Lab
-//TODO
+A simple Linux shell program that supports basic job control and I/O redirection.
 ## Proxy Lab
 A concurrent Web proxy that sits between local browsers and the rest of the World Wide Web.
 
