@@ -16,11 +16,12 @@ The best part, which is also the challenging part of this project, is that I had
 ## Pre-production ##
 Designing my own character was the very first task in the project. At that time, I had a pretty high expectation about what I could accomplish later, so I came up with a relatively detailed design about the character and the world he lives in.
 
-My character's name is Nate. He's a dead soul residing in what's called *the Afterlife*, a place that people in his world go to after death. In the Afterlife, everyone does the same job of composing dreams for the living ones, called *Dreamwriting*. Nate is the kind of person who had a miserable life before death but responds with kindness to everyone he works for. The reason behind this is another long story to tell, which proved to be too much for a 30-second film, but I thought hard into it anyway - To me, extra work is always better than insufficient work. You can see in the illustration below that I even included a description about what the writing accesories should look like.
+My character's name is Nate. He's a dead soul residing in what's called *the Afterlife*, a place that people in his world go to after death. In the Afterlife, everyone does the same job of composing dreams for the living ones, called *Dreamwriting*. Nate is the kind of person who had a miserable life before death but responds with kindness to everyone he works for. The reason behind this is another long story to tell - it turned out that such detail was too much for a short film, but I thought hard about it anyway.
+* The initial concept illustration (in which I even included a description about what the writing accessories should look like)
 
 ![character design](../media/dreamwriter/dreamwriter-002.png)
 
-Later in the semester, I started storyboarding for the final film. The main goal here was to tell a story that others could understand using as few frames as possible while keeping it consitent with the character and world design.
+Later in the semester, I started storyboarding for the final film. The main goal here was to tell a story that others could understand using as few frames as possible while keeping it consitent with the character and world design. I decided to go with a typical day in Nate's life.
 ![story](../media/dreamwriter/dreamwriter-005.png)
 
 ## Using Maya ##
