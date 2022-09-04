@@ -41,21 +41,23 @@ An application that generates a 3D title intro for your video with background cu
 
 [[Read More]](projects/3D-Video-Title-Generator.md)
 
-![3DVTG Menu](media/3d-video-title-generator/3DVTG-001.png)
+![3DVTG Menu](media/3d-video-title-generator/3DVTG-001.jpg)
 
 # **Computer Systems**
-These are some of the more challenging projects I did in CMU's Introduction to Computer Systems[^1] course, all of which provided me understanding of essential concepts in computer systems.
+These are some of the more challenging projects I did in CMU's Introduction to Computer Systems[^1] course, all of which built up my understanding of essential concepts in computer systems.
 
 ---
 
 ## Malloc Lab
-A dynamic memory allocator that efficiently simulates the `malloc`, `free`, `realloc`, and `calloc` library functions.
+A dynamic memory allocator that efficiently reproduces the `malloc`, `free`, `realloc`, and `calloc` library functions. My task in this lab was to write these function from scratch to satisfy some performance benchmarks, which required a good grasp of the lower-level memory layout. 
+
+The starter code used a single implicit list to manage the data blocks, which is (insert weakness). I did () to boost performance to ().
 ## Shell Lab
 //TODO
 ## Proxy Lab
 A concurrent Web proxy that sits between local browsers and the rest of the World Wide Web.
 
-[^1]: As per the academic integrity policy at CMU, the source code is not to be shared here.
+[^1]: As per the academic integrity policy at CMU, the source code is not to be disclosed here.
 
 # **Game Development**
 ## CapeGuy
