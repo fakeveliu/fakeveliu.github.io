@@ -76,6 +76,8 @@ Unity, C# | [GitHub Repo](https://github.com/fakeveliu/CapeGuy) | [Gameplay Vide
 
 A 2D platform adventure game. Along the journey, the player controls CapeGuy to fight enemies in the forest and collect coins to unlock new levels.
 
+[[Read More]](projects/CapeGuy.md)
+
 ![CapeGuy](media/capeguy/capeguy-001.png)
 
 ---
