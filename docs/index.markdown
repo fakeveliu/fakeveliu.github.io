@@ -60,7 +60,11 @@ A simple Linux shell program `tsh` that supports basic job control and I/O redir
 
 A must-have for implementing all of these is an extensive understanding of signals. Writing the 3 required signal handlers (`SIGCHLD`, `SIGINT`, and `SIGTSTP`) taught me a lot about how they interact with the processes exactly and when to block them to avoid race conditions.
 ## Proxy Lab
-A concurrent Web proxy that sits between local browsers and the rest of the World Wide Web.
+A concurrent Web proxy that sits between local browsers and the rest of the World Wide Web. In the first part of the lab, I familiarized myself with the basic procedure of request processing (*accept incoming connection -> read and parse requests -> forward to server -> read server's response -> forward back to client*) by implementing a sequential proxy.
+
+Building upon this, I altered the proxy to a parallel one utilizing `Pthreads` so that it can serve multiple simultaneous requests like prodction web proxies do. The majority of the difficulty lies in this part since I needed to take care of race conditions by locking resources approprately.
+
+Thread safety is also important in caching. The cache I implemented for the proxy is support by linked lists and functions as a key-value storage. It's necessary to control access to the cache correctly (e.g. a cache object shouldn't be evicted while it's being transmitted) and efficiently (e.g. resource should be unlocked before a cached object is written to the socket). This is done by using mutexes and reference counting wisely.
 
 [^1]: As per the academic integrity policy at CMU, the source code is not to be disclosed here.
 
@@ -72,6 +76,8 @@ Unity, C# | [GitHub Repo](https://github.com/fakeveliu/CapeGuy) | [Gameplay Vide
 
 A 2D platformer adventure game. Along the journey, the player controls CapeGuy to fight enemies in the forest and collect coins to unlock new levels.
 
+[[Read More]](projects/CapeGuy.md)
+
 ![CapeGuy](media/capeguy/capeguy-001.png)
 
 ---
@@ -80,7 +86,9 @@ A 2D platformer adventure game. Along the journey, the player controls CapeGuy t
 ## Dreamwriter
 Maya | [Showcase Video](https://www.youtube.com/watch?v=1fceOg6SGZs)
 
-A short 3D animation film in which I was responsible for everything in the pipeline from character design, storyboarding, 3D modeling, rigging, to animation. [[Read More]](projects/Dreamwriter.md)
+A short 3D animation film in which I was responsible for everything in the pipeline from character design, storyboarding, 3D modeling, rigging, to animation.
+
+[[Read More]](projects/Dreamwriter.md)
 
 ![Dreamwriter Render](media/dreamwriter/dreamwriter-001.jpeg)
 

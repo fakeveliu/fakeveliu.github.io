@@ -9,7 +9,7 @@ in_header: false
 
 ![DrawSVG Pipeline](../media/drawsvg/DrawSVG-001.png)
 
-DrawSVG is a project I did in the course Computer Graphics at CMU, utilizing important concepts in modern 2D rendering pipelines such as rasterization, sampling, perspective projection, depth and transparency, and so on.
+DrawSVG is a project I did in the course Computer Graphics at CMU, utilizing important concepts in modern 2D rendering pipelines such as rasterization, sampling, perspective projection, depth and transparency, and so on. Below are some highlights in this projects.
 
 ## Rasterization ##
 To draw basic primitives on the canvas, I implemented the following functions:
@@ -31,7 +31,7 @@ Specifically, supersampling is done by managing a larger sample buffer that stor
 ## Transformations ##
 An SVG file consists of a hierarchy of shape elements. Each element is associated with a modelling transform that defines the relationship between the element's local coordinate space and its parent's coordinate space. I applied matrices to correctly interpret the hierarchy and to support image pan and zoom while preserving the relative positions of the elements drawn.
 
-## Image Elements ##
+## Image Anti-aliasing ##
 
 ![drawsvg-zoom1](../media/drawsvg/DrawSVG-006.png)
 
