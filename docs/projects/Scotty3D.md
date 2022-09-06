@@ -4,14 +4,14 @@ title: Scotty3D
 permalink: /Scotty3D/
 in_header: false
 ---
-[GitHub Repo](https://github.com/CMU-Graphics/Scotty3D) | [Documentation](https://cmu-graphics.github.io/Scotty3D/)
+[GitHub Repo](https://github.com/CMU-Graphics/Scotty3D) | [Documentation](https://cmu-graphics.github.io/Scotty3D-docs/)
 > Carnegie Mellon University’s educational graphics software package. Includes components for interactive 3D mesh editing, path tracing, dynamic animation, and physics-based simulation.
 
 ![15-462 F20 Renders](../media/scotty3d/scotty3d-001.png)
 
 Scotty3D is an essential education tool used in the course Computer Graphics at CMU, where the students spend nearly the entire semester implementing features for its different components. By playing both the developer's and the user's role in this software application, they learn about many of the important topics in computer graphics.
 
-In Spring 2022, I wrote functionalities including 3D mesh editing, path tracing, animation, and physics-based simulation as a student in the class. Details about what I did can all be found in the [documentation](https://cmu-graphics.github.io/Scotty3D/) which also serves as the assignment writeup website for the course.
+In Spring 2022, I wrote functionalities including 3D mesh editing, path tracing, animation, and physics-based simulation as a student in the class. Details about what I did can all be found in the [documentation](https://cmu-graphics.github.io/Scotty3D-docs/) which also serves as the assignment writeup website for the course.
 
 * 3D Mesh Editing Interface:
 ![mesh editing](../media/scotty3d/scotty3d-002.png)

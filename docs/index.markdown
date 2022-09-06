@@ -17,7 +17,7 @@ title: "Home"
 ---
 # **Computer Graphics**
 ## Scotty3D
-C++ | [GitHub Repo](https://github.com/CMU-Graphics/Scotty3D) | [Documentation](https://cmu-graphics.github.io/Scotty3D/)
+C++ | [GitHub Repo](https://github.com/CMU-Graphics/Scotty3D) | [Documentation](https://cmu-graphics.github.io/Scotty3D-docs/)
 
 Carnegie Mellon University’s educational graphics software package. Includes components for interactive 3D mesh editing, path tracing, dynamic animation, and physics-based simulation.
 
